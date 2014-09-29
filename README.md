@@ -9,16 +9,12 @@ Create your restify server and your json schema.
 Adding a validation middleware to an endpoint couldn't be simpler:
 
 ```javascript
-    var validationMW = require('json-schema-validation-middleware');
-    server.post('/foo', [
-        validationMW(schema),
-        myRealHandler
-    ]);
+var validationMW = require('json-schema-validation-middleware');
+server.post('/foo', [
+    validationMW(schema),
+    myRealHandler
+]);
 ```
 
 ## Plans
-These are some things I'd like to add:
-
-- Tests for express.
-- Option to specify custom error-response handler.
-- Option to define a schema for only the body.
+Check the [issues](https://github.com/jwoudenberg/json-schema-validation-middleware/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) for some planned features.
