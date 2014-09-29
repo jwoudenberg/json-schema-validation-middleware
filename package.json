@@ -1,0 +1,33 @@
+{
+  "name": "json-schema-validation-middleware",
+  "version": "0.1.0",
+  "description": "Validate your incoming requests using a json schema.",
+  "license": "MIT",
+  "main": "lib/json-schema-validation-middleware.js",
+  "scripts": {
+    "test": "gulp test",
+    "precommit": "gulp lint",
+    "prepush": "gulp test"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/jwoudenberg/json-schema-validation-middleware.git"
+  },
+  "author": {
+    "name": "Jasper Woudenberg",
+    "email": "mail@jasperwoudenberg.com",
+    "url": "https://github.com/jwoudenberg"
+  },
+  "bugs": {
+    "url": "https://api.github.com/repos/jwoudenberg/json-schema-validation-middleware/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-help": "^1.1.0",
+    "gulp-jshint": "^1.8.4",
+    "husky": "^0.6.1",
+    "jshint-stylish": "^1.0.0",
+    "run-sequence": "^0.3.7"
+  },
+  "homepage": "https://github.com/jwoudenberg/json-schema-validation-middleware"
+}
