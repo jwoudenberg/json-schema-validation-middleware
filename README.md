@@ -1,3 +1,5 @@
+[![NPM version](https://badge.fury.io/js/json-schema-validation-middleware.svg)](http://badge.fury.io/js/json-schema-validation-middleware)
+
 # json-schema-validation-middleware
 Validate your incoming requests using a json schema.
 Tested with [restify](http://mcavage.me/node-restify/).
