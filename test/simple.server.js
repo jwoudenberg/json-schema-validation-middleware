@@ -1,22 +1,6 @@
 var validationMW = require('../');
 var restify = require('restify');
-var schema = {
-    title: 'root',
-    type: 'object',
-    required: ['body'],
-    properties: {
-        body: {
-            type: 'object',
-            required: ['foo'],
-            properties: {
-                foo: {
-                    type: 'string',
-                    enum: ['bar']
-                }
-            }
-        }
-    }
-};
+var schema = require('./schema.json');
 
 module.exports = function startServer() {
     var server = restify.createServer();

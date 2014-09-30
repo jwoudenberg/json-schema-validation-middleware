@@ -5,7 +5,7 @@ describe('It validates incoming requests', function() {
     var server = null;
 
     before(function(done) {
-        server = require('./test-server')();
+        server = require('./simple.server')();
         server.on('listening', done);
     });
 
