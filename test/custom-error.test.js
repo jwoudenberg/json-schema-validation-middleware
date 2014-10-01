@@ -1,7 +1,7 @@
 /* global describe, before, after, it */
 var request = require('supertest');
 
-describe('It validates incoming requests', function() {
+describe('It allows a custom error handler to be set', function() {
     var server = null;
 
     before(function(done) {
@@ -24,7 +24,7 @@ describe('It validates incoming requests', function() {
         request(server)
             .post('/foo')
             .send({ foo: 5 })
-            .expect('Error', 0)
+            .expect('Error', 'INVALID_TYPE')
             .expect(200, done);
     });
 });
