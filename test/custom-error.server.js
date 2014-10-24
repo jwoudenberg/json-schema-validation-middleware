@@ -1,16 +1,21 @@
-var validationMW = require('../');
 var restify = require('restify');
 var schema = require('./schema.json');
 
 module.exports = function startServer() {
-    var server = restify.createServer();
-    var customValidatMW = validationMW.errorHandler(function(err, res, next) {
-        res.setHeader('Error', err.code);
-        next();
+    //Delete any cached already configured validationMW
+    delete require.cache[require.resolve('../')];
+    var validationMW = require('../');
+    validationMW.configure({
+        errorHandler: function(err, res, next) {
+            res.setHeader('Error', err.code);
+            next();
+        }
     });
+
+    var server = restify.createServer();
     server.use(restify.bodyParser());
     server.post('/foo', [
-        customValidatMW(schema),
+        validationMW(schema),
         function(req, res) {
             res.send(200);
         }

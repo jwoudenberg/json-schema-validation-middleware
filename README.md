@@ -16,6 +16,17 @@ server.post('/foo', [
 ]);
 ```
 
+You can configure the middleware to use a custom error handler:
+
+```javascript
+validationMW.configure({
+    errorHandler: function (error, res, next) {
+        //Do whatever you like here, for instance:
+        res.send(400);
+    }
+});
+```
+
 ## Plans
 Check the [issues](https://github.com/jwoudenberg/json-schema-validation-middleware/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) for some planned features.
 
