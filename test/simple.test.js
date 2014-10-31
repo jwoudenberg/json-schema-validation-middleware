@@ -25,9 +25,8 @@ describe('It validates incoming requests', function() {
             .post('/foo')
             .send({ foo: 5 })
             .expect(400, {
-                code: 'INVALID_TYPE',
-                path: '/body/foo',
-                message: 'invalid type: number (expected string)'
+                code: 'validation.invalid_type./body/foo',
+                message: '[/body/foo] invalid type: number (expected string)'
             }, done);
     });
 });
