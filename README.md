@@ -27,6 +27,9 @@ validationMW.configure({
 });
 ```
 
+### Formats
+The middleware uses the [tv4-formats](https://github.com/ikr/tv4-formats) library, so the formats defined there are supported.
+
 ## Plans
 Check the [issues](https://github.com/jwoudenberg/json-schema-validation-middleware/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) for some planned features.
 

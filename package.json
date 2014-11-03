@@ -1,6 +1,6 @@
 {
   "name": "json-schema-validation-middleware",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Validate your incoming requests using a json schema.",
   "license": "MIT",
   "main": "lib/json-schema-validation-middleware.js",
@@ -35,6 +35,7 @@
   "homepage": "https://github.com/jwoudenberg/json-schema-validation-middleware",
   "dependencies": {
     "lodash": "^2.4.1",
-    "tv4": "^1.1.0"
+    "tv4": "^1.1.4",
+    "tv4-formats": "^0.5.0"
   }
 }
