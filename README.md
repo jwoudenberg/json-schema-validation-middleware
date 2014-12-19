@@ -1,4 +1,4 @@
-[![NPM version](https://badge.fury.io/js/json-schema-validation-middleware.svg)](http://badge.fury.io/js/json-schema-validation-middleware)
+[![NPM version](http://img.shields.io/npm/v/json-schema-validation-middleware.svg?style=flat-square)](https://www.npmjs.com/package/json-schema-validation-middleware)
 
 # json-schema-validation-middleware
 Validate your incoming requests using a json schema.
@@ -16,7 +16,7 @@ server.post('/foo', [
 ]);
 ```
 
-You can configure the middleware to use a custom error handler:
+You can optionally configure the middleware to use a custom error handler:
 
 ```javascript
 validationMW.configure({
