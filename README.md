@@ -1,7 +1,7 @@
+# json-schema-validation-middleware
 [![NPM version](http://img.shields.io/npm/v/json-schema-validation-middleware.svg?style=flat-square)](https://www.npmjs.com/package/json-schema-validation-middleware)
 [![Build status](https://img.shields.io/travis/jwoudenberg/json-schema-validation-middleware/master.svg?style=flat-square)](https://travis-ci.org/jwoudenberg/json-schema-validation-middleware)
 
-# json-schema-validation-middleware
 Validate your incoming requests using a json schema.
 Tested with [restify](http://mcavage.me/node-restify/).
 
