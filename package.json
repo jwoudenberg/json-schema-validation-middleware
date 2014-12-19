@@ -1,6 +1,6 @@
 {
   "name": "json-schema-validation-middleware",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "Validate your incoming requests using a json schema.",
   "license": "MIT",
   "main": "lib/json-schema-validation-middleware.js",
