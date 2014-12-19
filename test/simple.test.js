@@ -29,4 +29,15 @@ describe('It validates incoming requests', function() {
                 message: '[/body/foo] Invalid type: number (expected string)'
             }, done);
     });
+
+    it('Rejects an invalid request because of a missing property',
+            function(done) {
+        request(server)
+            .post('/foo')
+            .send({})
+            .expect(400, {
+                code: 'validation.object_required./body/foo',
+                message: '[/body] Missing required property: foo'
+            }, done);
+    });
 });

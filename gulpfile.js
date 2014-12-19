@@ -20,7 +20,7 @@ gulp.task('test-mocha', 'Run all mocha tests', function() {
 });
 
 gulp.task('lint', 'Lint all js files.', function() {
-    return gulp.src(['./**/*.js', '!./node_modules/**/*.js'])
+    return gulp.src(['lib/**/*.js'])
         .pipe(jshint())
         .pipe(jshint.reporter('jshint-stylish'))
         .pipe(jshint.reporter('fail'));
@@ -37,6 +37,6 @@ gulp.task('report-istanbul', false, function() {
     return gulp.src(['lib/**/*.js'])
         .pipe(istanbul.writeReports({
             dir: './coverage',
-            reporters: ['text-summary', 'lcovonly']
+            reporters: ['text-summary', 'lcov']
         }));
 });
