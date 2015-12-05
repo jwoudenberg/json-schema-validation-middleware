@@ -26,14 +26,14 @@
     "coveralls": "^2.11.2",
     "gulp": "^3.8.8",
     "gulp-help": "^1.1.0",
-    "gulp-istanbul": "^0.5.0",
-    "gulp-jshint": "^1.8.4",
-    "gulp-mocha": "^1.1.0",
-    "husky": "^0.6.1",
-    "jshint-stylish": "^1.0.0",
-    "restify": "^2.8.2",
-    "run-sequence": "^0.3.7",
-    "supertest": "^0.14.0"
+    "gulp-istanbul": "^0.10.3",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "husky": "^0.10.2",
+    "jshint-stylish": "^2.1.0",
+    "restify": "^4.0.3",
+    "run-sequence": "^1.1.5",
+    "supertest": "^1.1.0"
   },
   "homepage": "https://github.com/jwoudenberg/json-schema-validation-middleware",
   "dependencies": {
