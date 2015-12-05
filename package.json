@@ -30,6 +30,7 @@
     "gulp-jshint": "^2.0.0",
     "gulp-mocha": "^2.2.0",
     "husky": "^0.10.2",
+    "jshint": "^2.8.0",
     "jshint-stylish": "^2.1.0",
     "restify": "^4.0.3",
     "run-sequence": "^1.1.5",
