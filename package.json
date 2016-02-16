@@ -29,7 +29,7 @@
     "gulp-istanbul": "^0.10.3",
     "gulp-jshint": "^2.0.0",
     "gulp-mocha": "^2.2.0",
-    "husky": "^0.10.2",
+    "husky": "^0.11.0",
     "jshint": "^2.8.0",
     "jshint-stylish": "^2.1.0",
     "restify": "^4.0.3",
