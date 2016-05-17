@@ -40,6 +40,6 @@
   "dependencies": {
     "lodash": "^4.9.0",
     "tv4": "^1.1.9",
-    "tv4-formats": "^1.0.0"
+    "tv4-formats": "^2.0.0"
   }
 }
