@@ -23,7 +23,7 @@
     "url": "https://api.github.com/repos/jwoudenberg/json-schema-validation-middleware/issues"
   },
   "devDependencies": {
-    "coveralls": "^2.11.2",
+    "coveralls": "^2.11.11",
     "gulp": "^3.8.8",
     "gulp-help": "^1.1.0",
     "gulp-istanbul": "^1.0.0",
