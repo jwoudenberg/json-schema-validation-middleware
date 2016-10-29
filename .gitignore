@@ -84,3 +84,4 @@ Session.vim
 *.egg
 *.deb
 *.rpm
+yarn.lock
