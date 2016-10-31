@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/jwoudenberg/json-schema-validation-middleware",
   "dependencies": {
-    "lodash": "^4.9.0",
+    "lodash": "^4.16.5",
     "tv4": "^1.1.9",
     "tv4-formats": "^2.0.0"
   }
