@@ -24,7 +24,7 @@
   "devDependencies": {
     "coveralls": "^2.11.2",
     "jshint": "^2.9.4",
-    "mocha": "^3.1.2",
+    "mocha": "^3.4.0",
     "npm-run-all": "^4.0.2",
     "restify": "^4.0.3",
     "supertest": "^3.0.0"
